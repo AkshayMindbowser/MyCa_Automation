@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","31823","click Login as Super Admin after opening login page","webkit","Wed Nov 05 15:14:18 IST 2025","broken","Wed Nov 05 15:14:50 IST 2025","","example.spec.js","",""
+"","32223","click Login as Super Admin after opening login page","firefox","Wed Nov 05 15:13:39 IST 2025","broken","Wed Nov 05 15:14:11 IST 2025","","example.spec.js","",""
+"","32020","click Login as Super Admin after opening login page","chromium","Wed Nov 05 15:13:39 IST 2025","broken","Wed Nov 05 15:14:11 IST 2025","","example.spec.js","",""
