@@ -1,3 +1,0 @@
-Clicked using selector: button:has-text("Login as Super Admin")
-Submitted login via xpath=//span[@class="auth0-label-submit"]
-Clicked 3rd hospital row

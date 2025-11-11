@@ -1,0 +1,107 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e6]:
+      - generic [ref=e8]:
+        - img "MyCa Logo" [ref=e9]
+        - generic [ref=e10]: MyCa
+      - list [ref=e14]:
+        - listitem [ref=e15]:
+          - link "Hospital Management" [ref=e16]:
+            - /url: /hospitals
+            - img [ref=e17]
+            - generic [ref=e20]: Hospital Management
+        - listitem [ref=e21]:
+          - link "Settings" [ref=e22]:
+            - /url: /my-account
+            - img [ref=e23]
+            - generic [ref=e26]: Settings
+      - list [ref=e28]:
+        - listitem [ref=e29]:
+          - button "Logout" [ref=e30] [cursor=pointer]:
+            - img [ref=e31]
+            - generic [ref=e34]: Logout
+      - button "Toggle Sidebar" [ref=e35]
+    - main [ref=e36]:
+      - generic [ref=e38]:
+        - button "Toggle sidebar" [ref=e39] [cursor=pointer]:
+          - img
+          - generic [ref=e40]: Toggle Sidebar
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: shrinath.himane@mindbowser.com
+            - generic [ref=e48]: Super Admin
+          - button "S User menu" [ref=e49] [cursor=pointer]:
+            - generic [ref=e50]: S
+            - generic [ref=e51]: User menu
+      - main [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e56]:
+            - generic [ref=e57]:
+              - heading "Hospital Management" [level=1] [ref=e58]
+              - paragraph [ref=e59]: Easily manage hospital profiles and related information.
+            - button "Add New Hospital" [ref=e61] [cursor=pointer]:
+              - img
+              - text: Add New Hospital
+          - generic [ref=e63]:
+            - generic [ref=e65]:
+              - tablist [ref=e67]:
+                - tab "Active" [selected] [ref=e68] [cursor=pointer]
+                - tab "Inactive" [ref=e69] [cursor=pointer]
+              - generic [ref=e70]:
+                - img [ref=e71]
+                - searchbox "Search hospitals..." [ref=e74]
+            - table [ref=e77]:
+              - rowgroup [ref=e78]:
+                - row "Hospital Email Added On Status Actions" [ref=e79]:
+                  - cell "Hospital" [ref=e80]
+                  - cell "Email" [ref=e81]
+                  - cell "Added On" [ref=e82]
+                  - cell "Status" [ref=e83]
+                  - cell "Actions" [ref=e84]
+              - rowgroup [ref=e85]:
+                - row "MyCA- Dev logo MyCA- Dev testmain.orgg@gmail.comffs May 30, 2025 Active Open menu" [ref=e86] [cursor=pointer]:
+                  - cell "MyCA- Dev logo MyCA- Dev" [ref=e87]:
+                    - generic [ref=e88]:
+                      - img "MyCA- Dev logo" [ref=e90]
+                      - generic [ref=e91]: MyCA- Dev
+                  - cell "testmain.orgg@gmail.comffs" [ref=e92]
+                  - cell "May 30, 2025" [ref=e93]
+                  - cell "Active" [ref=e94]:
+                    - generic [ref=e95]: Active
+                  - cell "Open menu" [ref=e96]:
+                    - button "Open menu" [ref=e97]:
+                      - img
+                      - generic [ref=e98]: Open menu
+                - row "e hospital logo e hospital - Aug 24, 2025 Active Open menu" [ref=e99] [cursor=pointer]:
+                  - cell "e hospital logo e hospital" [ref=e100]:
+                    - generic [ref=e101]:
+                      - img "e hospital logo" [ref=e103]
+                      - generic [ref=e104]: e hospital
+                  - cell "-" [ref=e105]
+                  - cell "Aug 24, 2025" [ref=e106]
+                  - cell "Active" [ref=e107]:
+                    - generic [ref=e108]: Active
+                  - cell "Open menu" [ref=e109]:
+                    - button "Open menu" [ref=e110]:
+                      - img
+                      - generic [ref=e111]: Open menu
+                - row "Cancer Treatment Hospital logo Cancer Treatment Hospital firstname.lastname@domain.com Sep 8, 2025 Active Open menu" [ref=e112] [cursor=pointer]:
+                  - cell "Cancer Treatment Hospital logo Cancer Treatment Hospital" [ref=e113]:
+                    - generic [ref=e114]:
+                      - img "Cancer Treatment Hospital logo" [ref=e116]
+                      - generic [ref=e117]: Cancer Treatment Hospital
+                  - cell "firstname.lastname@domain.com" [ref=e118]
+                  - cell "Sep 8, 2025" [ref=e119]
+                  - cell "Active" [ref=e120]:
+                    - generic [ref=e121]: Active
+                  - cell "Open menu" [ref=e122]:
+                    - button "Open menu" [ref=e123]:
+                      - img
+                      - generic [ref=e124]: Open menu
+            - generic [ref=e126]: Showing 3 of 3 hospitals
+  - region "Notifications alt+T"
+  - alert [ref=e127]
+```
