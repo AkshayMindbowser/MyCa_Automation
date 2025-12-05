@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Interactive Allure-like Summary</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  body { font-family: Arial, sans-serif; margin: 18px; }
+  header { display:flex; gap:12px; align-items:center; margin-bottom:12px; }
+  input[type=text] { padding:8px; width:320px; }
+  select, button { padding:8px; }
+  .summary { margin-bottom:10px; }
+  table { width:100%; border-collapse:collapse; margin-top:10px; }
+  th, td { border:1px solid #ddd; padding:8px; text-align:left; }
+  th { background:#f2f2f2; cursor:pointer; }
+  tr.passed { border-left:6px solid #28a745; }
+  tr.failed { border-left:6px solid #dc3545; }
+  tr.unknown { border-left:6px solid #6c757d; }
+  .steps { font-size:0.9em; color:#444; }
+  .meta { color:#666; font-size:0.9em }
+</style>
+</head>
+<body>
+  <h1>Interactive Allure-like Summary</h1>
+  <div class="summary">
+    <strong>Total tests:</strong> <span id="total">17</span>
+    &nbsp; <strong>Passed:</strong> <span id="passed"></span>
+    &nbsp; <strong>Failed:</strong> <span id="failed"></span>
+  </div>
+  <header>
+    <input id="q" type="text" placeholder="Search by name or description">
+    <select id="statusFilter">
+      <option value="all">All statuses</option>
+      <option value="passed">Passed</option>
+      <option value="failed">Failed</option>
+      <option value="unknown">Unknown</option>
+      <option value="error">Error</option>
+    </select>
+    <button id="refresh">Refresh</button>
+  </header>
+  <table id="testsTable">
+    <thead>
+      <tr>
+        <th data-key="name">Name</th>
+        <th data-key="status">Status</th>
+        <th data-key="duration">Duration (ms)</th>
+        <th data-key="description">Description</th>
+      </tr>
+    </thead>
+    <tbody id="tbody">
+    </tbody>
+  </table>
+
+  <script>
+    const tests = [{"id":"MCP_197_js","name":"MCP-197","fullName":"MCP-197.js","status":"passed","duration":5000,"description":"Test case MCP-197.js - 6/6 assertions passed","steps":[{"name":"Running MCP-197.js","status":"passed","duration":5000}]},{"id":"MCP_198_js","name":"MCP-198","fullName":"MCP-198.js","status":"passed","duration":5000,"description":"Test case MCP-198.js - 0/0 assertions passed","steps":[{"name":"Running MCP-198.js","status":"passed","duration":5000}]},{"id":"MCP_202_js","name":"MCP-202","fullName":"MCP-202.js","status":"passed","duration":5000,"description":"Test case MCP-202.js - 6/6 assertions passed","steps":[{"name":"Running MCP-202.js","status":"passed","duration":5000}]},{"id":"MCP_203_js","name":"MCP-203","fullName":"MCP-203.js","status":"passed","duration":5000,"description":"Test case MCP-203.js - 6/6 assertions passed","steps":[{"name":"Running MCP-203.js","status":"passed","duration":5000}]},{"id":"MCP_204_js","name":"MCP-204","fullName":"MCP-204.js","status":"passed","duration":5000,"description":"Test case MCP-204.js - 0/0 assertions passed","steps":[{"name":"Running MCP-204.js","status":"passed","duration":5000}]},{"id":"MCP_205_js","name":"MCP-205","fullName":"MCP-205.js","status":"passed","duration":5000,"description":"Test case MCP-205.js - 0/0 assertions passed","steps":[{"name":"Running MCP-205.js","status":"passed","duration":5000}]},{"id":"MCP_206_js","name":"MCP-206","fullName":"MCP-206.js","status":"passed","duration":5000,"description":"Test case MCP-206.js - 0/0 assertions passed","steps":[{"name":"Running MCP-206.js","status":"passed","duration":5000}]},{"id":"MCP_312_js","name":"MCP-312","fullName":"MCP-312.js","status":"passed","duration":5000,"description":"Test case MCP-312.js - 5/5 assertions passed","steps":[{"name":"Running MCP-312.js","status":"passed","duration":5000}]},{"id":"MCP_316_js","name":"MCP-316","fullName":"MCP-316.js","status":"passed","duration":5000,"description":"Test case MCP-316.js - 4/4 assertions passed","steps":[{"name":"Running MCP-316.js","status":"passed","duration":5000}]},{"id":"MCP_318_js","name":"MCP-318","fullName":"MCP-318.js","status":"passed","duration":5000,"description":"Test case MCP-318.js - 7/7 assertions passed","steps":[{"name":"Running MCP-318.js","status":"passed","duration":5000}]},{"id":"MCP_319_js","name":"MCP-319","fullName":"MCP-319.js","status":"passed","duration":5000,"description":"Test case MCP-319.js - 7/7 assertions passed","steps":[{"name":"Running MCP-319.js","status":"passed","duration":5000}]},{"id":"MCP_321_js","name":"MCP-321","fullName":"MCP-321.js","status":"passed","duration":5000,"description":"Test case MCP-321.js - 7/7 assertions passed","steps":[{"name":"Running MCP-321.js","status":"passed","duration":5000}]},{"id":"MCP_322_js","name":"MCP-322","fullName":"MCP-322.js","status":"passed","duration":5000,"description":"Test case MCP-322.js - 0/0 assertions passed","steps":[{"name":"Running MCP-322.js","status":"passed","duration":5000}]},{"id":"MCP_327_js","name":"MCP-327","fullName":"MCP-327.js","status":"passed","duration":5000,"description":"Test case MCP-327.js - 6/6 assertions passed","steps":[{"name":"Running MCP-327.js","status":"passed","duration":5000}]},{"id":"MCP_328_js","name":"MCP-328","fullName":"MCP-328.js","status":"passed","duration":5000,"description":"Test case MCP-328.js - 6/6 assertions passed","steps":[{"name":"Running MCP-328.js","status":"passed","duration":5000}]},{"id":"MCP_329_js","name":"MCP-329","fullName":"MCP-329.js","status":"passed","duration":5000,"description":"Test case MCP-329.js - 0/0 assertions passed","steps":[{"name":"Running MCP-329.js","status":"passed","duration":5000}]},{"id":"MCP_330_js","name":"MCP-330","fullName":"MCP-330.js","status":"passed","duration":5000,"description":"Test case MCP-330.js - 8/8 assertions passed","steps":[{"name":"Running MCP-330.js","status":"passed","duration":5000}]}];
+
+    function render() {
+      const q = document.getElementById('q').value.toLowerCase();
+      const status = document.getElementById('statusFilter').value;
+      const tbody = document.getElementById('tbody');
+      tbody.innerHTML = '';
+
+      let passed = 0, failed = 0;
+      const filtered = tests.filter(t => {
+        if (status !== 'all' && t.status !== status) return false;
+        if (!q) return true;
+        return (t.name && t.name.toLowerCase().includes(q)) || (t.description && t.description.toLowerCase().includes(q)) || (t.fullName && t.fullName.toLowerCase().includes(q));
+      });
+
+      filtered.forEach(t => {
+        if (t.status === 'passed') passed++;
+        if (t.status === 'failed') failed++;
+        const tr = document.createElement('tr');
+        tr.className = t.status || 'unknown';
+
+        const tdName = document.createElement('td');
+        tdName.innerHTML = '<strong>' + escapeHtml(t.name) + '</strong><div class="meta">' + escapeHtml(t.fullName) + '</div>';
+        tr.appendChild(tdName);
+
+        const tdStatus = document.createElement('td');
+        tdStatus.textContent = t.status;
+        tr.appendChild(tdStatus);
+
+        const tdDur = document.createElement('td');
+        tdDur.textContent = t.duration || 0;
+        tr.appendChild(tdDur);
+
+        const tdDesc = document.createElement('td');
+        tdDesc.innerHTML = '<div>' + (t.description ? escapeHtml(t.description) : '') + '</div>' + renderSteps(t.steps || []);
+        tr.appendChild(tdDesc);
+
+        tbody.appendChild(tr);
+      });
+
+      document.getElementById('passed').textContent = passed;
+      document.getElementById('failed').textContent = failed;
+    }
+
+    function renderSteps(steps) {
+      if (!steps || steps.length === 0) return '';
+      let html = '<div class="steps"><em>Steps:</em><ul>';
+      steps.forEach(s => {
+        html += '<li>' + escapeHtml(s.name || '') + ' - ' + (s.status || '') + ' (' + (s.duration || 0) + ' ms)</li>';
+      });
+      html += '</ul></div>';
+      return html;
+    }
+
+    function escapeHtml(s) {
+      if (!s) return '';
+      return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
+
+    document.getElementById('q').addEventListener('input', render);
+    document.getElementById('statusFilter').addEventListener('change', render);
+    document.getElementById('refresh').addEventListener('click', () => location.reload());
+
+    // Initial render
+    render();
+  </script>
+</body>
+</html>
