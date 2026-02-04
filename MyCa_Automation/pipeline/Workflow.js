@@ -628,6 +628,75 @@ const WAIT_TIME = 1000; // Wait time between actions in milliseconds
 
     await page.waitForTimeout(WAIT_TIME);
 
+    /* ===================== 18. TOGGLE SIDEBAR (HIDE AND SHOW) ===================== */
+    console.log('\n1️⃣8️⃣ Clicking sidebar toggle to hide and show sidebar...');
+
+    const sidebarToggleSelectors = [
+      '[data-sidebar="trigger"]',
+      'button[aria-label="Toggle sidebar"]',
+      'button[aria-label="Toggle Sidebar"]',
+      'button:has(svg.lucide-panel-left)',
+      'button:has(.lucide-panel-left)'
+    ];
+
+    // Click to hide sidebar
+    for (const sel of sidebarToggleSelectors) {
+      try {
+        const toggleBtn = page.locator(sel).first();
+        if (await toggleBtn.count() > 0 && await toggleBtn.isVisible()) {
+          await page.waitForTimeout(WAIT_TIME);
+          await toggleBtn.click({ force: true });
+          console.log(`   ✓ Clicked sidebar toggle to HIDE (${sel})`);
+          break;
+        }
+      } catch (e) {}
+    }
+
+    await page.waitForTimeout(WAIT_TIME);
+
+    // Click again to show sidebar
+    for (const sel of sidebarToggleSelectors) {
+      try {
+        const toggleBtn = page.locator(sel).first();
+        if (await toggleBtn.count() > 0 && await toggleBtn.isVisible()) {
+          await page.waitForTimeout(WAIT_TIME);
+          await toggleBtn.click({ force: true });
+          console.log(`   ✓ Clicked sidebar toggle to SHOW (${sel})`);
+          break;
+        }
+      } catch (e) {}
+    }
+
+    await page.waitForTimeout(WAIT_TIME);
+
+    /* ===================== 19. CLICK LOGOUT BUTTON ===================== */
+    console.log('\n1️⃣9️⃣ Clicking Logout button...');
+
+    const logoutSelectors = [
+      'button:has-text("Logout")',
+      'button:has-text("Log out")',
+      'a:has-text("Logout")',
+      'a:has-text("Log out")',
+      '[data-testid="logout-button"]',
+      'text=Logout',
+      'text=Log out'
+    ];
+
+    for (const sel of logoutSelectors) {
+      try {
+        const logoutBtn = page.locator(sel).first();
+        if (await logoutBtn.count() > 0 && await logoutBtn.isVisible()) {
+          await logoutBtn.scrollIntoViewIfNeeded();
+          await page.waitForTimeout(WAIT_TIME);
+          await logoutBtn.click({ force: true });
+          console.log(`   ✓ Clicked Logout button (${sel})`);
+          break;
+        }
+      } catch (e) {}
+    }
+
+    await page.waitForTimeout(WAIT_TIME);
+
     /* ===================== END SESSION ===================== */
     console.log('\n✅ SUPER ADMIN USER WORKFLOW COMPLETED SUCCESSFULLY');
 
