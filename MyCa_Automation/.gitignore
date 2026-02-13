@@ -1,0 +1,10 @@
+node_modules/
+test-results/
+html-report/
+.playwright/
+.env
+.env.local
+credentials.json
+
+# Docs folder is intentionally committed for GitHub Pages
+# docs/ is NOT ignored so it gets deployed via GitHub Pages
