@@ -1,0 +1,272 @@
+[
+  {
+    "file": "tests\\Dashboard\\319_RedirectionAfterAuth0Login.spec.js",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "file": "tests\\Dashboard\\498_DashboardIsVisible.spec.js",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "file": "tests\\Dashboard\\501_ActiveHospselectedbydefault.spec.js",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "file": "tests\\Dashboard\\503_HospColumnsValidation.spec.js",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "file": "tests\\Dashboard\\513_VerifyClickHospitalViewDetails.spec.js",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "file": "tests\\Dashboard\\517_VerifyNavigationToSettings.spec.js",
+    "exitCode": 2,
+    "passed": false
+  },
+  {
+    "file": "tests\\Dashboard\\522_VerifyUserRestrictedFromCreatingDuplicateHospital.spec.js",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "file": "tests\\Dashboard\\527_VerifyHospitalCreatedSuccessfullyWithValidData.spec.js",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "file": "tests\\Dashboard\\528_VerifyErrorMessageShownForIncorrectEmail.spec.js",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "file": "tests\\Dashboard\\541_ValidateCopyFunctionality.spec.js",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "file": "tests\\Dashboard\\Add Hospital\\502_AddHospBtnVisibility.spec.js",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "file": "tests\\Dashboard\\Add Hospital\\519_AddNewHospitalOpens.spec.js",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "file": "tests\\Dashboard\\Add Hospital\\520_VerifyMandatoryFieldsValidation.spec.js",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "file": "tests\\Dashboard\\Add Hospital\\523_VerifyImageSelectorAllowsOnlyValidHospitalIcons.spec.js",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "file": "tests\\Dashboard\\Add Hospital\\524_VerifyImageSelectorRejectsInvalidImages.spec.js",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "file": "tests\\Dashboard\\Add Hospital\\525_VerifyImagesUnder5MBAllowed..spec.js",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "file": "tests\\Dashboard\\Add Hospital\\526_ValidateHospitalNameRequired.spec.js",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "file": "tests\\Dashboard\\Add Hospital\\529_VerifyPhoneNumberFieldValidation.spec.js",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "file": "tests\\Dashboard\\Add Hospital\\530_VerifyPhoneNumberFieldLengthValidation.spec.js",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "file": "tests\\Dashboard\\Add Hospital\\531_ValidateUserTypeDropdown.spec.js",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "file": "tests\\Dashboard\\Add Hospital\\532_VerifyCancelButtonFunctionality.spec.js",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "file": "tests\\Dashboard\\Add Hospital\\533_VerifyTenantIdValidation.spec.js",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "file": "tests\\Dashboard\\Add Hospital\\534_ValidateProviderConfigInput.spec.js",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "file": "tests\\Dashboard\\Add Hospital\\535_InvalidAudienceUrlValidation.spec.js",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "file": "tests\\Dashboard\\Add Hospital\\536_ValidateDescriptionFieldLimit.spec.js",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "file": "tests\\Dashboard\\Add Hospital\\537_VerifyProviderAuthConfigurationSectionVisible.spec.js",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "file": "tests\\Dashboard\\Add Hospital\\538_VerifyClientIdReadOnly.spec.js",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "file": "tests\\Dashboard\\Add Hospital\\539_VerifyIssuerUrlFormat.spec.js",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "file": "tests\\Dashboard\\Add Hospital\\540_VerifyProviderValueVisible.spec.js",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "file": "tests\\Dashboard\\Toggle button\\331_VerifyStatusToggleFunctionality.spec.js",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "file": "tests\\Dashboard\\Toggle button\\336_VerifyHospitalStatusToggleButton.spec.js",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "file": "tests\\Dashboard\\Toggle button\\500_VerifyStatusToggleFunctional.spec.js",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "file": "tests\\Dashboard\\Toggle button\\504_VerifyHospitalActiveInactive.spec.js",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "file": "tests\\Login\\196_URLValidation.spec.js",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "file": "tests\\Login\\197_LogSadminBtn.spec.js",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "file": "tests\\Login\\198_RedirectionOfLoginSadmin.spec.js",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "file": "tests\\Login\\202_LoginBtn.spec.js",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "file": "tests\\Login\\203_Don'tRememberURPasswrd.spec.js",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "file": "tests\\Login\\312_BehaviourOfMailField.spec.js",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "file": "tests\\Login\\315_PasswrdBehaviour.spec.js",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "file": "tests\\Login\\316_PasswrdEncryption.spec.spec.js",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "file": "tests\\Login\\318_ValidationLoginFields.spec.js",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "file": "tests\\Login\\321_LoginwithValidcred.fixed.spec.js",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "file": "tests\\Login\\321_LoginwithValidcred.spec.js",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "file": "tests\\Login\\322_ReLoginAfterLogin.spec.js",
+    "exitCode": 2,
+    "passed": false
+  },
+  {
+    "file": "tests\\Login\\323_InvalidEmail.spec.js",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "file": "tests\\Login\\324_IncorrectPasswrd.spec.js",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "file": "tests\\Login\\327_UnregisteredUserLogin.spec.js",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "file": "tests\\Login\\328_CaseSensitivityCheckforLogin.spec.js",
+    "exitCode": 2,
+    "passed": false
+  },
+  {
+    "file": "tests\\Login\\459_BehaviourofEmailonRestPass.spec.js",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "file": "tests\\Login\\542_NegativeInvalidUrlRender.spec.js",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "file": "tests\\Logout\\518VerifyLogoutFunctionality.spec.js",
+    "exitCode": 2,
+    "passed": false
+  },
+  {
+    "file": "tests\\Logout\\518_VerifyLogoutFunctionality.spec.js",
+    "exitCode": 2,
+    "passed": false
+  },
+  {
+    "file": "tests\\Logout\\521_VerifyNewHospitalShownInActiveList.spec.js",
+    "exitCode": 1,
+    "passed": false
+  }
+]

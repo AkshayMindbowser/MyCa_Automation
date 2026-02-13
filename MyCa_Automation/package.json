@@ -1,0 +1,24 @@
+{
+  "name": "myca_automation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "npm run report:allure",
+    "test:playwright": "npx playwright test",
+    "test:sequential": "node tools/run_tests_sequentially.js",
+    "report:playwright": "npx playwright show-report",
+    "report:allure": "npx allure generate allure-results -o allure-report --clean || true",
+    "report:allure-only": "node tools/report_allure_only.js",
+    "gen:qase": "node tools/generate_test_from_qase.js",
+    "create-jira-issue": "node jira/create_issue.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "allure-commandline": "^2.13.10",
+    "allure-playwright": "^2.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "playwright": "^1.58.1"
+  }
+}
