@@ -1,7 +1,0 @@
-{
-  "type": "Story",
-  "summary": "Super Admin: Login page",
-  "description": "As a Super Admin, I need a secure login page so I can authenticate and access the Super Admin dashboard.\n\nFeatures:\n- Email and Password fields, 'Remember me' checkbox, 'Forgot password' link.\n- Client-side validation for required fields and valid email format with clear inline errors.\n- Submit triggers secure server-side authentication (rate-limited).\n- On auth failure, show non-revealing errors (e.g. 'Invalid email or password').\n- Support for MFA: if enabled, prompt for second factor after password.\n\nAcceptance Criteria:\n- Fields: Email and Password present; Login button disabled until inputs are valid.\n- Validation: Invalid email shows inline error; empty password shows inline error.\n- Auth: Wrong credentials show non-revealing error; correct credentials redirect to /super-admin/dashboard.\n- Security: Password submitted over HTTPS; server returns 401 for failures; implement basic brute-force protection (temporary lockout after N attempts).\n- UX: 'Forgot password' navigates to reset flow; 'Remember me' persists session per policy.\n- Accessibility: Inputs have labels, correct focus order, and ARIA-live region for errors.\n\nNotes:\n- Server: return 200 + session token/cookie on success; return 200 with mfa_required flag when MFA is required.\n- Tests: add automated tests for validation, login success/failure, lockout, MFA flow.",
-  "assignee": "",
-  "labels": ["super-admin","auth","login"]
-}
