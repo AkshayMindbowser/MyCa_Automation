@@ -1,0 +1,55 @@
+{
+  "uuid": "bfc28d60-618c-4e34-a584-2fc852f9811d",
+  "historyId": "197_LogSadminBtn.spec.js",
+  "fullName": "Login > 197_LogSadminBtn.spec.js",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "Login"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "11396"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    }
+  ],
+  "links": [],
+  "name": "197_LogSadminBtn.spec.js",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1770966003327,
+  "stop": 1770966008327,
+  "duration": 5000,
+  "description": "Test: 197_LogSadminBtn.spec.js",
+  "descriptionHtml": "<p>Test file: tests\\Login\\197_LogSadminBtn.spec.js</p><p>Exit code: 1</p>",
+  "steps": [
+    {
+      "name": "Execute test",
+      "status": "failed",
+      "stage": "finished",
+      "start": 1770966003327,
+      "stop": 1770966008327,
+      "steps": []
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "statusDetails": {
+    "message": "Test failed with exit code: 1",
+    "trace": "Test execution failed during test run.",
+    "known": true,
+    "muted": false,
+    "flaky": false
+  }
+}

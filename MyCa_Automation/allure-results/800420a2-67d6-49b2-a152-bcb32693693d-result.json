@@ -1,0 +1,55 @@
+{
+  "uuid": "800420a2-67d6-49b2-a152-bcb32693693d",
+  "historyId": "518_VerifyLogoutFunctionality.spec.js",
+  "fullName": "Logout > 518_VerifyLogoutFunctionality.spec.js",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "Logout"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "11396"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    }
+  ],
+  "links": [],
+  "name": "518_VerifyLogoutFunctionality.spec.js",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1770966093351,
+  "stop": 1770966098351,
+  "duration": 5000,
+  "description": "Test: 518_VerifyLogoutFunctionality.spec.js",
+  "descriptionHtml": "<p>Test file: tests\\Logout\\518_VerifyLogoutFunctionality.spec.js</p><p>Exit code: 2</p>",
+  "steps": [
+    {
+      "name": "Execute test",
+      "status": "failed",
+      "stage": "finished",
+      "start": 1770966093352,
+      "stop": 1770966098352,
+      "steps": []
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "statusDetails": {
+    "message": "Test failed with exit code: 2",
+    "trace": "Test execution failed during test run.",
+    "known": true,
+    "muted": false,
+    "flaky": false
+  }
+}

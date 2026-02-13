@@ -1,0 +1,55 @@
+{
+  "uuid": "859b8ef7-a7a8-46e8-aa72-7162a01f44c8",
+  "historyId": "536_ValidateDescriptionFieldLimit.spec.js",
+  "fullName": "Add Hospital > 536_ValidateDescriptionFieldLimit.spec.js",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "Add Hospital"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "11396"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    }
+  ],
+  "links": [],
+  "name": "536_ValidateDescriptionFieldLimit.spec.js",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1770965953310,
+  "stop": 1770965958310,
+  "duration": 5000,
+  "description": "Test: 536_ValidateDescriptionFieldLimit.spec.js",
+  "descriptionHtml": "<p>Test file: tests\\Dashboard\\Add Hospital\\536_ValidateDescriptionFieldLimit.spec.js</p><p>Exit code: 1</p>",
+  "steps": [
+    {
+      "name": "Execute test",
+      "status": "failed",
+      "stage": "finished",
+      "start": 1770965953310,
+      "stop": 1770965958310,
+      "steps": []
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "statusDetails": {
+    "message": "Test failed with exit code: 1",
+    "trace": "Test execution failed during test run.",
+    "known": true,
+    "muted": false,
+    "flaky": false
+  }
+}

@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","30139","Super Admin: deactivate and activate hospital","chromium","Thu Nov 06 17:18:05 IST 2025","broken","Thu Nov 06 17:18:35 IST 2025","","example.spec.js","",""
+"","30146","Super Admin: deactivate and activate hospital","firefox","Thu Nov 06 17:18:05 IST 2025","broken","Thu Nov 06 17:18:35 IST 2025","","example.spec.js","",""
+"","30781","Super Admin: deactivate and activate hospital","webkit","Thu Nov 06 17:18:43 IST 2025","broken","Thu Nov 06 17:19:13 IST 2025","","example.spec.js","",""

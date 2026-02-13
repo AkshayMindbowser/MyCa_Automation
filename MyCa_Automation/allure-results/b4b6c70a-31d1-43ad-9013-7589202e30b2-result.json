@@ -1,0 +1,48 @@
+{
+  "uuid": "b4b6c70a-31d1-43ad-9013-7589202e30b2",
+  "historyId": "315_PasswrdBehaviour.spec.js",
+  "fullName": "Login > 315_PasswrdBehaviour.spec.js",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "Login"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "11396"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    }
+  ],
+  "links": [],
+  "name": "315_PasswrdBehaviour.spec.js",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770966028334,
+  "stop": 1770966033334,
+  "duration": 5000,
+  "description": "Test: 315_PasswrdBehaviour.spec.js",
+  "descriptionHtml": "<p>Test file: tests\\Login\\315_PasswrdBehaviour.spec.js</p><p>Exit code: 0</p>",
+  "steps": [
+    {
+      "name": "Execute test",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1770966028334,
+      "stop": 1770966033334,
+      "steps": []
+    }
+  ],
+  "attachments": [],
+  "parameters": []
+}

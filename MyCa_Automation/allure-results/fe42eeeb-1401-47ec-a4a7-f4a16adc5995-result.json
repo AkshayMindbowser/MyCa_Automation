@@ -1,0 +1,55 @@
+{
+  "uuid": "fe42eeeb-1401-47ec-a4a7-f4a16adc5995",
+  "historyId": "533_VerifyTenantIdValidation.spec.js",
+  "fullName": "Add Hospital > 533_VerifyTenantIdValidation.spec.js",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "Add Hospital"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "11396"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    }
+  ],
+  "links": [],
+  "name": "533_VerifyTenantIdValidation.spec.js",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1770965938305,
+  "stop": 1770965943305,
+  "duration": 5000,
+  "description": "Test: 533_VerifyTenantIdValidation.spec.js",
+  "descriptionHtml": "<p>Test file: tests\\Dashboard\\Add Hospital\\533_VerifyTenantIdValidation.spec.js</p><p>Exit code: 1</p>",
+  "steps": [
+    {
+      "name": "Execute test",
+      "status": "failed",
+      "stage": "finished",
+      "start": 1770965938305,
+      "stop": 1770965943305,
+      "steps": []
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "statusDetails": {
+    "message": "Test failed with exit code: 1",
+    "trace": "Test execution failed during test run.",
+    "known": true,
+    "muted": false,
+    "flaky": false
+  }
+}

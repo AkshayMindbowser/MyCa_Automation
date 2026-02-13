@@ -1,0 +1,64 @@
+name: Playwright Tests
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [18.x]
+        browser: [chromium, firefox, webkit]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: Install dependencies (MyCa)
+        working-directory: ./MyCa
+        run: |
+          npm ci
+
+      - name: Install Playwright browsers
+        working-directory: ./MyCa
+        run: |
+          npx playwright install --with-deps
+
+      - name: Check required secrets
+        working-directory: ./MyCa
+        env:
+          SUPERADMIN_EMAIL: ${{ secrets.SUPERADMIN_EMAIL }}
+          SUPERADMIN_PASSWORD: ${{ secrets.SUPERADMIN_PASSWORD }}
+        run: |
+          if [ -z "$SUPERADMIN_EMAIL" ] || [ -z "$SUPERADMIN_PASSWORD" ]; then
+            echo "ERROR: SUPERADMIN_EMAIL or SUPERADMIN_PASSWORD is not set in repository secrets. Aborting.";
+            exit 1;
+          fi
+
+      - name: Run example Playwright test (${ { matrix.browser } })
+        working-directory: ./MyCa
+        env:
+          # Mount credentials from repository secrets if available
+          SUPERADMIN_EMAIL: ${{ secrets.SUPERADMIN_EMAIL }}
+          SUPERADMIN_PASSWORD: ${{ secrets.SUPERADMIN_PASSWORD }}
+        run: |
+          npm run test:example -- --project=${{ matrix.browser }}
+
+      - name: Upload Playwright test-results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-test-results
+          path: |
+            MyCa/test-results/**
+            MyCa/allure-results/**
+            MyCa/tests/*.png
+            MyCa/tests/*.html

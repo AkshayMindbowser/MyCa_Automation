@@ -1,0 +1,48 @@
+{
+  "uuid": "60596e64-927f-4d93-8cb7-1bdb69c89b8a",
+  "historyId": "321_LoginwithValidcred.fixed.spec.js",
+  "fullName": "Login > 321_LoginwithValidcred.fixed.spec.js",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "Login"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "11396"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    }
+  ],
+  "links": [],
+  "name": "321_LoginwithValidcred.fixed.spec.js",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770966043340,
+  "stop": 1770966048340,
+  "duration": 5000,
+  "description": "Test: 321_LoginwithValidcred.fixed.spec.js",
+  "descriptionHtml": "<p>Test file: tests\\Login\\321_LoginwithValidcred.fixed.spec.js</p><p>Exit code: 0</p>",
+  "steps": [
+    {
+      "name": "Execute test",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1770966043340,
+      "stop": 1770966048340,
+      "steps": []
+    }
+  ],
+  "attachments": [],
+  "parameters": []
+}

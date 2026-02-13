@@ -1,0 +1,48 @@
+{
+  "uuid": "fd413ffe-4ec6-4575-b23b-81787fd52df5",
+  "historyId": "500_VerifyStatusToggleFunctional.spec.js",
+  "fullName": "Toggle button > 500_VerifyStatusToggleFunctional.spec.js",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "Toggle button"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "11396"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    }
+  ],
+  "links": [],
+  "name": "500_VerifyStatusToggleFunctional.spec.js",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770965988323,
+  "stop": 1770965993323,
+  "duration": 5000,
+  "description": "Test: 500_VerifyStatusToggleFunctional.spec.js",
+  "descriptionHtml": "<p>Test file: tests\\Dashboard\\Toggle button\\500_VerifyStatusToggleFunctional.spec.js</p><p>Exit code: 0</p>",
+  "steps": [
+    {
+      "name": "Execute test",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1770965988323,
+      "stop": 1770965993323,
+      "steps": []
+    }
+  ],
+  "attachments": [],
+  "parameters": []
+}

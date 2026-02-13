@@ -1,0 +1,48 @@
+{
+  "uuid": "a38c95c1-5761-4635-ab4f-e3ee9d9c556a",
+  "historyId": "529_VerifyPhoneNumberFieldValidation.spec.js",
+  "fullName": "Add Hospital > 529_VerifyPhoneNumberFieldValidation.spec.js",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "Add Hospital"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "11396"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    }
+  ],
+  "links": [],
+  "name": "529_VerifyPhoneNumberFieldValidation.spec.js",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770965918299,
+  "stop": 1770965923299,
+  "duration": 5000,
+  "description": "Test: 529_VerifyPhoneNumberFieldValidation.spec.js",
+  "descriptionHtml": "<p>Test file: tests\\Dashboard\\Add Hospital\\529_VerifyPhoneNumberFieldValidation.spec.js</p><p>Exit code: 0</p>",
+  "steps": [
+    {
+      "name": "Execute test",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1770965918299,
+      "stop": 1770965923299,
+      "steps": []
+    }
+  ],
+  "attachments": [],
+  "parameters": []
+}

@@ -1,0 +1,55 @@
+{
+  "uuid": "6a75c727-af85-445e-8aa2-b37c5cdbb8e9",
+  "historyId": "531_ValidateUserTypeDropdown.spec.js",
+  "fullName": "Add Hospital > 531_ValidateUserTypeDropdown.spec.js",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "Add Hospital"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "11396"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    }
+  ],
+  "links": [],
+  "name": "531_ValidateUserTypeDropdown.spec.js",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1770965928301,
+  "stop": 1770965933301,
+  "duration": 5000,
+  "description": "Test: 531_ValidateUserTypeDropdown.spec.js",
+  "descriptionHtml": "<p>Test file: tests\\Dashboard\\Add Hospital\\531_ValidateUserTypeDropdown.spec.js</p><p>Exit code: 1</p>",
+  "steps": [
+    {
+      "name": "Execute test",
+      "status": "failed",
+      "stage": "finished",
+      "start": 1770965928301,
+      "stop": 1770965933301,
+      "steps": []
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "statusDetails": {
+    "message": "Test failed with exit code: 1",
+    "trace": "Test execution failed during test run.",
+    "known": true,
+    "muted": false,
+    "flaky": false
+  }
+}

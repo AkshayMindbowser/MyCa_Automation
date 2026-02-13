@@ -1,0 +1,48 @@
+{
+  "uuid": "e9dde1d9-05ee-4877-b4ba-c76aa21524f9",
+  "historyId": "198_RedirectionOfLoginSadmin.spec.js",
+  "fullName": "Login > 198_RedirectionOfLoginSadmin.spec.js",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "Login"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "11396"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    }
+  ],
+  "links": [],
+  "name": "198_RedirectionOfLoginSadmin.spec.js",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770966008328,
+  "stop": 1770966013328,
+  "duration": 5000,
+  "description": "Test: 198_RedirectionOfLoginSadmin.spec.js",
+  "descriptionHtml": "<p>Test file: tests\\Login\\198_RedirectionOfLoginSadmin.spec.js</p><p>Exit code: 0</p>",
+  "steps": [
+    {
+      "name": "Execute test",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1770966008328,
+      "stop": 1770966013328,
+      "steps": []
+    }
+  ],
+  "attachments": [],
+  "parameters": []
+}

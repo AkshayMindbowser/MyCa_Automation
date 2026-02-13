@@ -1,0 +1,55 @@
+{
+  "uuid": "833b7544-295e-45e0-b9dd-ac7f4cdb856e",
+  "historyId": "527_VerifyHospitalCreatedSuccessfullyWithValidData.spec.js",
+  "fullName": "Dashboard > 527_VerifyHospitalCreatedSuccessfullyWithValidData.spec.js",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "Dashboard"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "11396"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    }
+  ],
+  "links": [],
+  "name": "527_VerifyHospitalCreatedSuccessfullyWithValidData.spec.js",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1770965868281,
+  "stop": 1770965873281,
+  "duration": 5000,
+  "description": "Test: 527_VerifyHospitalCreatedSuccessfullyWithValidData.spec.js",
+  "descriptionHtml": "<p>Test file: tests\\Dashboard\\527_VerifyHospitalCreatedSuccessfullyWithValidData.spec.js</p><p>Exit code: 1</p>",
+  "steps": [
+    {
+      "name": "Execute test",
+      "status": "failed",
+      "stage": "finished",
+      "start": 1770965868281,
+      "stop": 1770965873281,
+      "steps": []
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "statusDetails": {
+    "message": "Test failed with exit code: 1",
+    "trace": "Test execution failed during test run.",
+    "known": true,
+    "muted": false,
+    "flaky": false
+  }
+}

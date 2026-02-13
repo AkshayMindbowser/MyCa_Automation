@@ -1,0 +1,55 @@
+{
+  "uuid": "d3abf1a7-3742-4ba6-ba6b-78d036c01335",
+  "historyId": "501_ActiveHospselectedbydefault.spec.js",
+  "fullName": "Dashboard > 501_ActiveHospselectedbydefault.spec.js",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "Dashboard"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "11396"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    }
+  ],
+  "links": [],
+  "name": "501_ActiveHospselectedbydefault.spec.js",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1770965843270,
+  "stop": 1770965848270,
+  "duration": 5000,
+  "description": "Test: 501_ActiveHospselectedbydefault.spec.js",
+  "descriptionHtml": "<p>Test file: tests\\Dashboard\\501_ActiveHospselectedbydefault.spec.js</p><p>Exit code: 1</p>",
+  "steps": [
+    {
+      "name": "Execute test",
+      "status": "failed",
+      "stage": "finished",
+      "start": 1770965843270,
+      "stop": 1770965848270,
+      "steps": []
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "statusDetails": {
+    "message": "Test failed with exit code: 1",
+    "trace": "Test execution failed during test run.",
+    "known": true,
+    "muted": false,
+    "flaky": false
+  }
+}

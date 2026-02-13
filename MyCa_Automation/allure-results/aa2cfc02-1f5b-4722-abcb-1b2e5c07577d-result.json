@@ -1,0 +1,55 @@
+{
+  "uuid": "aa2cfc02-1f5b-4722-abcb-1b2e5c07577d",
+  "historyId": "530_VerifyPhoneNumberFieldLengthValidation.spec.js",
+  "fullName": "Add Hospital > 530_VerifyPhoneNumberFieldLengthValidation.spec.js",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "Add Hospital"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "11396"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    }
+  ],
+  "links": [],
+  "name": "530_VerifyPhoneNumberFieldLengthValidation.spec.js",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1770965923300,
+  "stop": 1770965928300,
+  "duration": 5000,
+  "description": "Test: 530_VerifyPhoneNumberFieldLengthValidation.spec.js",
+  "descriptionHtml": "<p>Test file: tests\\Dashboard\\Add Hospital\\530_VerifyPhoneNumberFieldLengthValidation.spec.js</p><p>Exit code: 1</p>",
+  "steps": [
+    {
+      "name": "Execute test",
+      "status": "failed",
+      "stage": "finished",
+      "start": 1770965923300,
+      "stop": 1770965928300,
+      "steps": []
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "statusDetails": {
+    "message": "Test failed with exit code: 1",
+    "trace": "Test execution failed during test run.",
+    "known": true,
+    "muted": false,
+    "flaky": false
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "uuid": "8d2513b1-0353-4262-b118-502ae70a3f8b",
+  "historyId": "502_AddHospBtnVisibility.spec.js",
+  "fullName": "Add Hospital > 502_AddHospBtnVisibility.spec.js",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "Add Hospital"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "11396"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    }
+  ],
+  "links": [],
+  "name": "502_AddHospBtnVisibility.spec.js",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770965883287,
+  "stop": 1770965888287,
+  "duration": 5000,
+  "description": "Test: 502_AddHospBtnVisibility.spec.js",
+  "descriptionHtml": "<p>Test file: tests\\Dashboard\\Add Hospital\\502_AddHospBtnVisibility.spec.js</p><p>Exit code: 0</p>",
+  "steps": [
+    {
+      "name": "Execute test",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1770965883287,
+      "stop": 1770965888287,
+      "steps": []
+    }
+  ],
+  "attachments": [],
+  "parameters": []
+}

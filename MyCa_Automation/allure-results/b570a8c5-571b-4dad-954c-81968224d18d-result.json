@@ -1,0 +1,48 @@
+{
+  "uuid": "b570a8c5-571b-4dad-954c-81968224d18d",
+  "historyId": "327_UnregisteredUserLogin.spec.js",
+  "fullName": "Login > 327_UnregisteredUserLogin.spec.js",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "Login"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "11396"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    }
+  ],
+  "links": [],
+  "name": "327_UnregisteredUserLogin.spec.js",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770966068346,
+  "stop": 1770966073346,
+  "duration": 5000,
+  "description": "Test: 327_UnregisteredUserLogin.spec.js",
+  "descriptionHtml": "<p>Test file: tests\\Login\\327_UnregisteredUserLogin.spec.js</p><p>Exit code: 0</p>",
+  "steps": [
+    {
+      "name": "Execute test",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1770966068346,
+      "stop": 1770966073346,
+      "steps": []
+    }
+  ],
+  "attachments": [],
+  "parameters": []
+}

@@ -1,0 +1,5 @@
+﻿# ignore generated Allure reports except the index
+MyCa/allure-report/*
+!MyCa/allure-report/index.html
+allure-report/*
+!allure-report/index.html

@@ -1,0 +1,48 @@
+{
+  "uuid": "064d4965-0126-48ff-a423-9c45c04cb8a1",
+  "historyId": "319_RedirectionAfterAuth0Login.spec.js",
+  "fullName": "Dashboard > 319_RedirectionAfterAuth0Login.spec.js",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "Dashboard"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "11396"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    }
+  ],
+  "links": [],
+  "name": "319_RedirectionAfterAuth0Login.spec.js",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770965833260,
+  "stop": 1770965838260,
+  "duration": 5000,
+  "description": "Test: 319_RedirectionAfterAuth0Login.spec.js",
+  "descriptionHtml": "<p>Test file: tests\\Dashboard\\319_RedirectionAfterAuth0Login.spec.js</p><p>Exit code: 0</p>",
+  "steps": [
+    {
+      "name": "Execute test",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1770965833260,
+      "stop": 1770965838260,
+      "steps": []
+    }
+  ],
+  "attachments": [],
+  "parameters": []
+}

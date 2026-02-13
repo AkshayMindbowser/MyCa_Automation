@@ -1,0 +1,55 @@
+{
+  "uuid": "ab1009f7-9428-4e9b-b633-2033362fee46",
+  "historyId": "203_Don'tRememberURPasswrd.spec.js",
+  "fullName": "Login > 203_Don'tRememberURPasswrd.spec.js",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "Login"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "11396"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    }
+  ],
+  "links": [],
+  "name": "203_Don'tRememberURPasswrd.spec.js",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1770966018330,
+  "stop": 1770966023330,
+  "duration": 5000,
+  "description": "Test: 203_Don'tRememberURPasswrd.spec.js",
+  "descriptionHtml": "<p>Test file: tests\\Login\\203_Don'tRememberURPasswrd.spec.js</p><p>Exit code: 1</p>",
+  "steps": [
+    {
+      "name": "Execute test",
+      "status": "failed",
+      "stage": "finished",
+      "start": 1770966018330,
+      "stop": 1770966023330,
+      "steps": []
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "statusDetails": {
+    "message": "Test failed with exit code: 1",
+    "trace": "Test execution failed during test run.",
+    "known": true,
+    "muted": false,
+    "flaky": false
+  }
+}

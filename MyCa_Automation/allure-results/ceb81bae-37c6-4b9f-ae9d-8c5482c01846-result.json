@@ -1,0 +1,48 @@
+{
+  "uuid": "ceb81bae-37c6-4b9f-ae9d-8c5482c01846",
+  "historyId": "316_PasswrdEncryption.spec.spec.js",
+  "fullName": "Login > 316_PasswrdEncryption.spec.spec.js",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "Login"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "11396"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    }
+  ],
+  "links": [],
+  "name": "316_PasswrdEncryption.spec.spec.js",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770966033335,
+  "stop": 1770966038335,
+  "duration": 5000,
+  "description": "Test: 316_PasswrdEncryption.spec.spec.js",
+  "descriptionHtml": "<p>Test file: tests\\Login\\316_PasswrdEncryption.spec.spec.js</p><p>Exit code: 0</p>",
+  "steps": [
+    {
+      "name": "Execute test",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1770966033335,
+      "stop": 1770966038335,
+      "steps": []
+    }
+  ],
+  "attachments": [],
+  "parameters": []
+}

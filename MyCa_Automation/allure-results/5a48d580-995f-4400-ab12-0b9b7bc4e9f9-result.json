@@ -1,0 +1,55 @@
+{
+  "uuid": "5a48d580-995f-4400-ab12-0b9b7bc4e9f9",
+  "historyId": "202_LoginBtn.spec.js",
+  "fullName": "Login > 202_LoginBtn.spec.js",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "Login"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "11396"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    }
+  ],
+  "links": [],
+  "name": "202_LoginBtn.spec.js",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1770966013329,
+  "stop": 1770966018329,
+  "duration": 5000,
+  "description": "Test: 202_LoginBtn.spec.js",
+  "descriptionHtml": "<p>Test file: tests\\Login\\202_LoginBtn.spec.js</p><p>Exit code: 1</p>",
+  "steps": [
+    {
+      "name": "Execute test",
+      "status": "failed",
+      "stage": "finished",
+      "start": 1770966013329,
+      "stop": 1770966018329,
+      "steps": []
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "statusDetails": {
+    "message": "Test failed with exit code: 1",
+    "trace": "Test execution failed during test run.",
+    "known": true,
+    "muted": false,
+    "flaky": false
+  }
+}

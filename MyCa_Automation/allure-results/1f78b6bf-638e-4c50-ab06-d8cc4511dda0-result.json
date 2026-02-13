@@ -1,0 +1,48 @@
+{
+  "uuid": "1f78b6bf-638e-4c50-ab06-d8cc4511dda0",
+  "historyId": "532_VerifyCancelButtonFunctionality.spec.js",
+  "fullName": "Add Hospital > 532_VerifyCancelButtonFunctionality.spec.js",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "Add Hospital"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "11396"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    }
+  ],
+  "links": [],
+  "name": "532_VerifyCancelButtonFunctionality.spec.js",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1770965933303,
+  "stop": 1770965938303,
+  "duration": 5000,
+  "description": "Test: 532_VerifyCancelButtonFunctionality.spec.js",
+  "descriptionHtml": "<p>Test file: tests\\Dashboard\\Add Hospital\\532_VerifyCancelButtonFunctionality.spec.js</p><p>Exit code: 0</p>",
+  "steps": [
+    {
+      "name": "Execute test",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1770965933303,
+      "stop": 1770965938303,
+      "steps": []
+    }
+  ],
+  "attachments": [],
+  "parameters": []
+}

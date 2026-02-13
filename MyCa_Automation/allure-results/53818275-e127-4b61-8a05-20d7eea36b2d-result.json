@@ -1,0 +1,55 @@
+{
+  "uuid": "53818275-e127-4b61-8a05-20d7eea36b2d",
+  "historyId": "322_ReLoginAfterLogin.spec.js",
+  "fullName": "Login > 322_ReLoginAfterLogin.spec.js",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "Login"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "11396"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    }
+  ],
+  "links": [],
+  "name": "322_ReLoginAfterLogin.spec.js",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1770966053343,
+  "stop": 1770966058343,
+  "duration": 5000,
+  "description": "Test: 322_ReLoginAfterLogin.spec.js",
+  "descriptionHtml": "<p>Test file: tests\\Login\\322_ReLoginAfterLogin.spec.js</p><p>Exit code: 2</p>",
+  "steps": [
+    {
+      "name": "Execute test",
+      "status": "failed",
+      "stage": "finished",
+      "start": 1770966053343,
+      "stop": 1770966058343,
+      "steps": []
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "statusDetails": {
+    "message": "Test failed with exit code: 2",
+    "trace": "Test execution failed during test run.",
+    "known": true,
+    "muted": false,
+    "flaky": false
+  }
+}

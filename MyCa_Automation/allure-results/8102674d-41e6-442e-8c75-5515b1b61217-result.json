@@ -1,0 +1,55 @@
+{
+  "uuid": "8102674d-41e6-442e-8c75-5515b1b61217",
+  "historyId": "520_VerifyMandatoryFieldsValidation.spec.js",
+  "fullName": "Add Hospital > 520_VerifyMandatoryFieldsValidation.spec.js",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "Add Hospital"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "11396"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    }
+  ],
+  "links": [],
+  "name": "520_VerifyMandatoryFieldsValidation.spec.js",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1770965893291,
+  "stop": 1770965898291,
+  "duration": 5000,
+  "description": "Test: 520_VerifyMandatoryFieldsValidation.spec.js",
+  "descriptionHtml": "<p>Test file: tests\\Dashboard\\Add Hospital\\520_VerifyMandatoryFieldsValidation.spec.js</p><p>Exit code: 1</p>",
+  "steps": [
+    {
+      "name": "Execute test",
+      "status": "failed",
+      "stage": "finished",
+      "start": 1770965893291,
+      "stop": 1770965898291,
+      "steps": []
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "statusDetails": {
+    "message": "Test failed with exit code: 1",
+    "trace": "Test execution failed during test run.",
+    "known": true,
+    "muted": false,
+    "flaky": false
+  }
+}

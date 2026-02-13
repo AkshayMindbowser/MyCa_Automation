@@ -1,0 +1,55 @@
+{
+  "uuid": "ed956b3d-3a98-4c63-a88f-d9f0539f55ad",
+  "historyId": "542_NegativeInvalidUrlRender.spec.js",
+  "fullName": "Login > 542_NegativeInvalidUrlRender.spec.js",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "Login"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "11396"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    }
+  ],
+  "links": [],
+  "name": "542_NegativeInvalidUrlRender.spec.js",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1770966083349,
+  "stop": 1770966088349,
+  "duration": 5000,
+  "description": "Test: 542_NegativeInvalidUrlRender.spec.js",
+  "descriptionHtml": "<p>Test file: tests\\Login\\542_NegativeInvalidUrlRender.spec.js</p><p>Exit code: 1</p>",
+  "steps": [
+    {
+      "name": "Execute test",
+      "status": "failed",
+      "stage": "finished",
+      "start": 1770966083349,
+      "stop": 1770966088349,
+      "steps": []
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "statusDetails": {
+    "message": "Test failed with exit code: 1",
+    "trace": "Test execution failed during test run.",
+    "known": true,
+    "muted": false,
+    "flaky": false
+  }
+}

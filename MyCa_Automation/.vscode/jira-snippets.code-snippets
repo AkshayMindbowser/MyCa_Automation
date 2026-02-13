@@ -1,0 +1,16 @@
+{
+  "Create Jira Bug Command": {
+    "prefix": "jira-bug",
+    "body": [
+      "npm run create-jira-issue -- --template bug --summary \"${1:Short summary}\" --description \"${2:Steps to reproduce}\""
+    ],
+    "description": "Insert CLI command to create a Jira bug from template"
+  },
+  "Create Jira Story Command": {
+    "prefix": "jira-story",
+    "body": [
+      "npm run create-jira-issue -- --template story --summary \"${1:Story title}\" --description \"${2:Description and AC}\""
+    ],
+    "description": "Insert CLI command to create a Jira story from template"
+  }
+}

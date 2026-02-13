@@ -1,0 +1,55 @@
+{
+  "uuid": "2f5bbe20-1b25-4aea-b875-3142742cf386",
+  "historyId": "541_ValidateCopyFunctionality.spec.js",
+  "fullName": "Dashboard > 541_ValidateCopyFunctionality.spec.js",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "Dashboard"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "11396"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    }
+  ],
+  "links": [],
+  "name": "541_ValidateCopyFunctionality.spec.js",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1770965878285,
+  "stop": 1770965883285,
+  "duration": 5000,
+  "description": "Test: 541_ValidateCopyFunctionality.spec.js",
+  "descriptionHtml": "<p>Test file: tests\\Dashboard\\541_ValidateCopyFunctionality.spec.js</p><p>Exit code: 1</p>",
+  "steps": [
+    {
+      "name": "Execute test",
+      "status": "failed",
+      "stage": "finished",
+      "start": 1770965878285,
+      "stop": 1770965883285,
+      "steps": []
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "statusDetails": {
+    "message": "Test failed with exit code: 1",
+    "trace": "Test execution failed during test run.",
+    "known": true,
+    "muted": false,
+    "flaky": false
+  }
+}
